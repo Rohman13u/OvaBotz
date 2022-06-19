@@ -2899,10 +2899,10 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								]
 							},
 							{
-								"title": "Thanks To",
+								"title": "Jasa Sewa/Run",
 								"rows": [
 									{
-										"title": "Contributor",
+										"title": "Sewa/Run",
 										"description": "",
 										"rowId": `${prefix}thanksto`
 									}
@@ -4255,18 +4255,26 @@ let btn = [{
 case 'thanksto': {
                 anu = `Hai Kak ${pushname}
 
-┌──⭓ *THANKS TO*
-│
-│❏ OvaBotz
-│❏ OvaBotz
-│❏ OvaBotz
-│❏ OvaBotz
-│❏ OvaBotz
-│❏ OvaBotz
-│❏ OvaBotz
-│❏ OvaBotz
-│
-└───────⭓`
+—————「 *SEWA | BOT* 」—————
+
+  *_SEWA BOT_* 
+  *≻* Sewa Bot 15k (Permanen)
+
+  *JADI BOT* 
+  *≻* Jadi Bot + Owner 20k (Permanen)
+
+  *JASA RUN BOT*
+  *≻* Run Bot + Jadi Bot 30k (Permanen)
+
+  *_Pembayaran :_* 
+  *≻* QRIS All Payment 
+  
+  _*NB : Bot online 24Jam,Kecuali ada masalah eror/bug._
+
+  *Minat? Langsung chat aja 🐦*
+
+  *Contact person Owner* :
+  Wa.me/6285878105774`
 let btn = [{
                                 urlButton: {
                                     displayText: 'YT CREATOR️',
