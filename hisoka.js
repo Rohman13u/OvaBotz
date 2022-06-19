@@ -1381,7 +1381,7 @@ break
            await hisoka.sendMedia(m.chat, `https://xteam.xyz/${command}?file&text=${text}`, 'hisoka', 'morou', m, {asSticker: true})
          }
          break
-case 'stext': case 'stickertext': case 'stikertext': {
+case 'stext': case 'stickertext': case 'smeme': {
 	        let respond = `Kirim/reply image/sticker dengan caption ${prefix + command} text1|text2`
 	        if (!/image/.test(mime)) throw respond
             if (!text) throw respond
