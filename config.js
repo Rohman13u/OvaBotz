@@ -21,12 +21,12 @@ global.APIKeys = {
 global.owner = ['6285878105774']
 global.premium = ['6285878105774']
 global.namaowner = ['Ova']
-global.namabot = ['OvaBotz²']
-global.packname = 'Created By OvaBotz²'
-global.author = 'OvaBotz²'
+global.namabot = ['OvaBotz']
+global.packname = 'Created By OvaBotz'
+global.author = 'OvaBotz'
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
-global.sp = '⭔'
+global.sp = '❏'
 global.mess = {
     success: '✓ Success',
     admin: 'Fitur Khusus Admin Group!',
