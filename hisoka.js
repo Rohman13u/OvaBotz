@@ -137,7 +137,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
 	  // Anti Link
         if (db.data.chats[m.chat].antilink) {
         if (budy.match(`chat.whatsapp.com`)) {
-        m.reply(`「 ANTI LINK 」\n\nKamu terdeteksi mengirim link group, maaf kamu akan di kick !`)
+        m.reply(`「 ANTI LINK 」\n\nKagak Ush  Send link group, Asw Ngentod !`)
         if (!isBotAdmins) return m.reply(`Ehh bot gak admin T_T`)
         let gclink = (`https://chat.whatsapp.com/`+await hisoka.groupInviteCode(m.chat))
         let isLinkThisGc = new RegExp(gclink, 'i')
@@ -533,7 +533,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'sc': {
-                m.reply('Script : Chat Owner\n\n Dont Forget Give Star\n\nDonate : 6285878105774 (Gopay)\nSaweria : Y\nY : Y\n\n Dont Forget Donate')
+                m.reply('Script : Chat Owner\n\n Dont Forget Give Star\n\nDonate : 6285878105774 (Gopay)\nQris :https://telegra.ph/Donate-06-19 \n  \n\n Dont Forget Donate')
             }
             break
             case 'chat': {
@@ -2640,8 +2640,8 @@ case  'runtime': {
 	m.reply(`Bot Telah On Selama : ${runtime(process.uptime())}`)
 	}
 	break
-case 'bot': {
-	m.reply(`Apa?`)
+case 'credit': {
+	m.reply(`Dika Ardnt?`)
 	}
 	break
 case 'hai': {
@@ -2661,7 +2661,7 @@ case 'gopay': {
             }
             break
 case 'dana': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://wa.me/p/5258349800854856/6285878105774' }, caption: `DANA` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/Donate-06-19' }, caption: `DANA` }, { quoted: m })
             }
             break
 case 'qris': {
@@ -2741,7 +2741,11 @@ case 'sewabot': {
                      }
             break
   case 'menu': {
-	anu = `Hai Kak ${pushname}\n\nSaya Adalah OvaBotz, Bot Ini Memakai Program Multi Device Beta Dari WhatsApp.\n\nJadi Jika Kamu Menemukan Bug Atau Kesalahan Silahkan Laporkan Kepada Owner Agar Segera Di Perbaiki.\n\nTerima Kasih🙏`
+	anu = `Hai Kak ${pushname}\n\n*⌞ BOT INFO ⌝*
+👑 Creator : *Ova*
+👤 Owner : *6285878105774*
+🤖 Bot Name : *Ova Botz*
+🗒 ️Prefix : *Multi Prefix*\n`
               let btn = [{
                                 urlButton: {
                                     displayText: 'YT CREATOR️',
@@ -2948,325 +2952,325 @@ case 'allmenu': {
 
 ┌──⭓ *GROUP MENU*
 │
-│⭔ ${prefix}linkgroup
-│⭔ ${prefix}ephemeral [option]
-│⭔ ${prefix}setppgc [image]
-│⭔ ${prefix}setname [text]
-│⭔ ${prefix}setdesc [text]
-│⭔ ${prefix}group [option]
-│⭔ ${prefix}editinfo [option]
-│⭔ ${prefix}add @user
-│⭔ ${prefix}kick @user
-│⭔ ${prefix}hidetag [text]
-│⭔ ${prefix}tagall [text]
-│⭔ ${prefix}antilink [on/off]
-│⭔ ${prefix}mute [on/off]
-│⭔ ${prefix}promote @user
-│⭔ ${prefix}demote @user
-│⭔ ${prefix}vote [text]
-│⭔ ${prefix}devote
-│⭔ ${prefix}upvote
-│⭔ ${prefix}cekvote
-│⭔ ${prefix}hapusvote
+│❏ ${prefix}linkgroup
+│❏ ${prefix}ephemeral [option]
+│❏ ${prefix}setppgc [image]
+│❏ ${prefix}setname [text]
+│❏ ${prefix}setdesc [text]
+│❏ ${prefix}group [option]
+│❏ ${prefix}editinfo [option]
+│❏ ${prefix}add @user
+│❏ ${prefix}kick @user
+│❏ ${prefix}hidetag [text]
+│❏ ${prefix}tagall [text]
+│❏ ${prefix}antilink [on/off]
+│❏ ${prefix}mute [on/off]
+│❏ ${prefix}promote @user
+│❏ ${prefix}demote @user
+│❏ ${prefix}vote [text]
+│❏ ${prefix}devote
+│❏ ${prefix}upvote
+│❏ ${prefix}cekvote
+│❏ ${prefix}hapusvote
 │
 └───────⭓
 
 ┌──⭓ *DOWNLOAD MENU*
 │
-│⭔ ${prefix}tiktoknowm [url]
-│⭔ ${prefix}tiktokwm [url]
-│⭔ ${prefix}tiktokmp3 [url]
-│⭔ ${prefix}instagram [url]
-│⭔ ${prefix}twitter [url]
-│⭔ ${prefix}twittermp3 [url]
-│⭔ ${prefix}facebook [url]
-│⭔ ${prefix}pinterestdl [url]
-│⭔ ${prefix}ytmp3 [url]
-│⭔ ${prefix}ytmp4 [url]
-│⭔ ${prefix}getmusic [query]
-│⭔ ${prefix}getvideo [query]
-│⭔ ${prefix}umma [url]
-│⭔ ${prefix}joox [query]
-│⭔ ${prefix}soundcloud [url]
+│❏ ${prefix}tiktoknowm [url]
+│❏ ${prefix}tiktokwm [url]
+│❏ ${prefix}tiktokmp3 [url]
+│❏ ${prefix}instagram [url]
+│❏ ${prefix}twitter [url]
+│❏ ${prefix}twittermp3 [url]
+│❏ ${prefix}facebook [url]
+│❏ ${prefix}pinterestdl [url]
+│❏ ${prefix}ytmp3 [url]
+│❏ ${prefix}ytmp4 [url]
+│❏ ${prefix}getmusic [query]
+│❏ ${prefix}getvideo [query]
+│❏ ${prefix}umma [url]
+│❏ ${prefix}joox [query]
+│❏ ${prefix}soundcloud [url]
 │
 └───────⭓
 
 ┌──⭓ *MEME MENU*
 │
-│⭔ ${prefix}meme
-│⭔ ${prefix}memeindo
-│⭔ ${prefix}darkjoke
-│⭔ ${prefix}darkmeme
+│❏ ${prefix}meme
+│❏ ${prefix}memeindo
+│❏ ${prefix}darkjoke
+│❏ ${prefix}darkmeme
 │
 └───────⭓
 
 ┌──⭓ *SEARCH MENU*
 │
-│⭔ ${prefix}play [query]
-│⭔ ${prefix}yts [query]
-│⭔ ${prefix}google [query]
-│⭔ ${prefix}gimage [query]
-│⭔ ${prefix}pinterest [query]
-│⭔ ${prefix}wallpaper [query]
-│⭔ ${prefix}wikimedia [query]
-│⭔ ${prefix}ytsearch [query]
-│⭔ ${prefix}ringtone [query]
-│⭔ ${prefix}stalk [option] [query]
+│❏ ${prefix}play [query]
+│❏ ${prefix}yts [query]
+│❏ ${prefix}google [query]
+│❏ ${prefix}gimage [query]
+│❏ ${prefix}pinterest [query]
+│❏ ${prefix}wallpaper [query]
+│❏ ${prefix}wikimedia [query]
+│❏ ${prefix}ytsearch [query]
+│❏ ${prefix}ringtone [query]
+│❏ ${prefix}stalk [option] [query]
 │
 └───────⭓
 
 ┌──⭓ *RANDOM MENU*
 │
-│⭔ ${prefix}coffe
-│⭔ ${prefix}quotesanime
-│⭔ ${prefix}motivasi
-│⭔ ${prefix}dilanquote
-│⭔ ${prefix}bucinquote
-│⭔ ${prefix}katasenja
-│⭔ ${prefix}puisi
-│⭔ ${prefix}couple
-│⭔ ${prefix}anime
-│⭔ ${prefix}waifu
-│⭔ ${prefix}husbu
-│⭔ ${prefix}neko
-│⭔ ${prefix}shinobu
-│⭔ ${prefix}waifus (nsfw)
-│⭔ ${prefix}nekos (nsfw)
-│⭔ ${prefix}trap (nsfw)
-│⭔ ${prefix}blowjob (nsfw)
+│❏ ${prefix}coffe
+│❏ ${prefix}quotesanime
+│❏ ${prefix}motivasi
+│❏ ${prefix}dilanquote
+│❏ ${prefix}bucinquote
+│❏ ${prefix}katasenja
+│❏ ${prefix}puisi
+│❏ ${prefix}couple
+│❏ ${prefix}anime
+│❏ ${prefix}waifu
+│❏ ${prefix}husbu
+│❏ ${prefix}neko
+│❏ ${prefix}shinobu
+│❏ ${prefix}waifus (nsfw)
+│❏ ${prefix}nekos (nsfw)
+│❏ ${prefix}trap (nsfw)
+│❏ ${prefix}blowjob (nsfw)
 │
 └───────⭓
 
 ┌──⭓ *TEXT PRO MENU*
 │
-│⭔ ${prefix}3dchristmas
-│⭔ ${prefix}3ddeepsea
-│⭔ ${prefix}americanflag
-│⭔ ${prefix}3dscifi
-│⭔ ${prefix}3drainbow
-│⭔ ${prefix}3dwaterpipe
-│⭔ ${prefix}halloweenskeleton
-│⭔ ${prefix}sketch
-│⭔ ${prefix}bluecircuit
-│⭔ ${prefix}space
-│⭔ ${prefix}metallic
-│⭔ ${prefix}fiction
-│⭔ ${prefix}greenhorror
-│⭔ ${prefix}transformer
-│⭔ ${prefix}berry
-│⭔ ${prefix}thunder
-│⭔ ${prefix}magma
-│⭔ ${prefix}3dcrackedstone
-│⭔ ${prefix}3dneonlight
-│⭔ ${prefix}impressiveglitch
-│⭔ ${prefix}naturalleaves
-│⭔ ${prefix}fireworksparkle
-│⭔ ${prefix}matrix
-│⭔ ${prefix}dropwater
-│⭔ ${prefix}harrypotter
-│⭔ ${prefix}foggywindow
-│⭔ ${prefix}neondevils
-│⭔ ${prefix}christmasholiday
-│⭔ ${prefix}3dgradient
-│⭔ ${prefix}blackpink
-│⭔ ${prefix}gluetext
+│❏ ${prefix}3dchristmas
+│❏ ${prefix}3ddeepsea
+│❏ ${prefix}americanflag
+│❏ ${prefix}3dscifi
+│❏ ${prefix}3drainbow
+│❏ ${prefix}3dwaterpipe
+│❏ ${prefix}halloweenskeleton
+│❏ ${prefix}sketch
+│❏ ${prefix}bluecircuit
+│❏ ${prefix}space
+│❏ ${prefix}metallic
+│❏ ${prefix}fiction
+│❏ ${prefix}greenhorror
+│❏ ${prefix}transformer
+│❏ ${prefix}berry
+│❏ ${prefix}thunder
+│❏ ${prefix}magma
+│❏ ${prefix}3dcrackedstone
+│❏ ${prefix}3dneonlight
+│❏ ${prefix}impressiveglitch
+│❏ ${prefix}naturalleaves
+│❏ ${prefix}fireworksparkle
+│❏ ${prefix}matrix
+│❏ ${prefix}dropwater
+│❏ ${prefix}harrypotter
+│❏ ${prefix}foggywindow
+│❏ ${prefix}neondevils
+│❏ ${prefix}christmasholiday
+│❏ ${prefix}3dgradient
+│❏ ${prefix}blackpink
+│❏ ${prefix}gluetext
 │
 └───────⭓
 
 ┌──⭓ *PHOTO OXY MENU*
 │
-│⭔ ${prefix}shadow
-│⭔ ${prefix}romantic
-│⭔ ${prefix}smoke
-│⭔ ${prefix}burnpapper
-│⭔ ${prefix}naruto
-│⭔ ${prefix}lovemsg
-│⭔ ${prefix}grassmsg
-│⭔ ${prefix}lovetext
-│⭔ ${prefix}coffecup
-│⭔ ${prefix}butterfly
-│⭔ ${prefix}harrypotter
-│⭔ ${prefix}retrolol
+│❏ ${prefix}shadow
+│❏ ${prefix}romantic
+│❏ ${prefix}smoke
+│❏ ${prefix}burnpapper
+│❏ ${prefix}naruto
+│❏ ${prefix}lovemsg
+│❏ ${prefix}grassmsg
+│❏ ${prefix}lovetext
+│❏ ${prefix}coffecup
+│❏ ${prefix}butterfly
+│❏ ${prefix}harrypotter
+│❏ ${prefix}retrolol
 │
 └───────⭓
 
 ┌──⭓ *EPHOTO MENU*
 │
-│⭔ ${prefix}ffcover
-│⭔ ${prefix}crossfire
-│⭔ ${prefix}galaxy
-│⭔ ${prefix}glass
-│⭔ ${prefix}neon
-│⭔ ${prefix}beach
-│⭔ ${prefix}blackpink
-│⭔ ${prefix}igcertificate
-│⭔ ${prefix}ytcertificate
+│❏ ${prefix}ffcover
+│❏ ${prefix}crossfire
+│❏ ${prefix}galaxy
+│❏ ${prefix}glass
+│❏ ${prefix}neon
+│❏ ${prefix}beach
+│❏ ${prefix}blackpink
+│❏ ${prefix}igcertificate
+│❏ ${prefix}ytcertificate
 │
 └───────⭓
 
 ┌──⭓ *FUN MENU*
 │
-│⭔ ${prefix}apakah
-│⭔ ${prefix}bisakah
-│⭔ ${prefix}bagaimanakah
-│⭔ ${prefix}rate
-│⭔ ${prefix}kapankah
-│⭔ ${prefix}cekganteng
-│⭔ ${prefix}cekcantik
-│⭔ ${prefix}ceksange
-│⭔ ${prefix}cekgay
-│⭔ ${prefix}ceklesbi
-│⭔ ${prefix}cekmati
-│⭔ ${prefix}wangy
-│⭔ ${prefix}halah
-│⭔ ${prefix}hilih
-│⭔ ${prefix}huluh
-│⭔ ${prefix}heleh
-│⭔ ${prefix}holoh
-│⭔ ${prefix}jadian
-│⭔ ${prefix}jodohku
-│⭔ ${prefix}delttt
-│⭔ ${prefix}tictactoe
-│⭔ ${prefix}family100
-│⭔ ${prefix}tebak [option]
-│⭔ ${prefix}math [mode]
-│⭔ ${prefix}suitpvp [@tag]
+│❏ ${prefix}apakah
+│❏ ${prefix}bisakah
+│❏ ${prefix}bagaimanakah
+│❏ ${prefix}rate
+│❏ ${prefix}kapankah
+│❏ ${prefix}cekganteng
+│❏ ${prefix}cekcantik
+│❏ ${prefix}ceksange
+│❏ ${prefix}cekgay
+│❏ ${prefix}ceklesbi
+│❏ ${prefix}cekmati
+│❏ ${prefix}wangy
+│❏ ${prefix}halah
+│❏ ${prefix}hilih
+│❏ ${prefix}huluh
+│❏ ${prefix}heleh
+│❏ ${prefix}holoh
+│❏ ${prefix}jadian
+│❏ ${prefix}jodohku
+│❏ ${prefix}delttt
+│❏ ${prefix}tictactoe
+│❏ ${prefix}family100
+│❏ ${prefix}tebak [option]
+│❏ ${prefix}math [mode]
+│❏ ${prefix}suitpvp [@tag]
 │
 └───────⭓
 
 ┌──⭓ *PRIMBON MENU*
 │
-│⭔ ${prefix}nomorhoki
-│⭔ ${prefix}artimimpi
-│⭔ ${prefix}artinama
-│⭔ ${prefix}ramaljodoh
-│⭔ ${prefix}ramaljodohbali
-│⭔ ${prefix}suamiistri
-│⭔ ${prefix}ramalcinta
-│⭔ ${prefix}cocoknama
-│⭔ ${prefix}pasangan
-│⭔ ${prefix}jadiannikah
-│⭔ ${prefix}sifatusaha
-│⭔ ${prefix}rezeki
-│⭔ ${prefix}pekerjaan
-│⭔ ${prefix}nasib
-│⭔ ${prefix}penyakit
-│⭔ ${prefix}tarot
-│⭔ ${prefix}fengshui
-│⭔ ${prefix}haribaik
-│⭔ ${prefix}harisangar
-│⭔ ${prefix}harisial
-│⭔ ${prefix}nagahari
-│⭔ ${prefix}arahrezeki
-│⭔ ${prefix}peruntungan
-│⭔ ${prefix}weton
-│⭔ ${prefix}karakter
-│⭔ ${prefix}keberuntungan
-│⭔ ${prefix}memancing
-│⭔ ${prefix}masasubur
-│⭔ ${prefix}zodiak
-│⭔ ${prefix}shio
+│❏ ${prefix}nomorhoki
+│❏ ${prefix}artimimpi
+│❏ ${prefix}artinama
+│❏ ${prefix}ramaljodoh
+│❏ ${prefix}ramaljodohbali
+│❏ ${prefix}suamiistri
+│❏ ${prefix}ramalcinta
+│❏ ${prefix}cocoknama
+│❏ ${prefix}pasangan
+│❏ ${prefix}jadiannikah
+│❏ ${prefix}sifatusaha
+│❏ ${prefix}rezeki
+│❏ ${prefix}pekerjaan
+│❏ ${prefix}nasib
+│❏ ${prefix}penyakit
+│❏ ${prefix}tarot
+│❏ ${prefix}fengshui
+│❏ ${prefix}haribaik
+│❏ ${prefix}harisangar
+│❏ ${prefix}harisial
+│❏ ${prefix}nagahari
+│❏ ${prefix}arahrezeki
+│❏ ${prefix}peruntungan
+│❏ ${prefix}weton
+│❏ ${prefix}karakter
+│❏ ${prefix}keberuntungan
+│❏ ${prefix}memancing
+│❏ ${prefix}masasubur
+│❏ ${prefix}zodiak
+│❏ ${prefix}shio
 │
 └───────⭓
 
 ┌──⭓ *CONVERT MENU*
 │
-│⭔ ${prefix}attp
-│⭔ ${prefix}toimage
-│⭔ ${prefix}removebg
-│⭔ ${prefix}sticker
-│⭔ ${prefix}stext
-│⭔ ${prefix}emojimix
-│⭔ ${prefix}emojimix2
-│⭔ ${prefix}tovideo
-│⭔ ${prefix}togif
-│⭔ ${prefix}tourl
-│⭔ ${prefix}tovn
-│⭔ ${prefix}tomp3
-│⭔ ${prefix}toaudio
-│⭔ ${prefix}ebinary
-│⭔ ${prefix}dbinary
-│⭔ ${prefix}styletext
+│❏ ${prefix}attp
+│❏ ${prefix}toimage
+│❏ ${prefix}removebg
+│❏ ${prefix}sticker
+│❏ ${prefix}stext
+│❏ ${prefix}emojimix
+│❏ ${prefix}emojimix2
+│❏ ${prefix}tovideo
+│❏ ${prefix}togif
+│❏ ${prefix}tourl
+│❏ ${prefix}tovn
+│❏ ${prefix}tomp3
+│❏ ${prefix}toaudio
+│❏ ${prefix}ebinary
+│❏ ${prefix}dbinary
+│❏ ${prefix}styletext
 │
 └───────⭓
 
 ┌──⭓ *MAIN MENU*
 │
-│⭔ ${prefix}ping
-│⭔ ${prefix}owner
-│⭔ ${prefix}runtime
-│⭔ ${prefix}menu / ${prefix}help / ${prefix}?
-│⭔ ${prefix}delete
-│⭔ ${prefix}infochat
-│⭔ ${prefix}quoted
-│⭔ ${prefix}listpc
-│⭔ ${prefix}listgc
-│⭔ ${prefix}listonline
-│⭔ ${prefix}speedtest
+│❏ ${prefix}ping
+│❏ ${prefix}owner
+│❏ ${prefix}runtime
+│❏ ${prefix}menu / ${prefix}help / ${prefix}?
+│❏ ${prefix}delete
+│❏ ${prefix}infochat
+│❏ ${prefix}quoted
+│❏ ${prefix}listpc
+│❏ ${prefix}listgc
+│❏ ${prefix}listonline
+│❏ ${prefix}speedtest
 │
 └───────⭓
 
 ┌──⭓ *DATABASE MENU*
 │
-│⭔ ${prefix}setcmd
-│⭔ ${prefix}listcmd
-│⭔ ${prefix}delcmd
-│⭔ ${prefix}lockcmd
-│⭔ ${prefix}addmsg
-│⭔ ${prefix}listmsg
-│⭔ ${prefix}getmsg
-│⭔ ${prefix}delmsg
+│❏ ${prefix}setcmd
+│❏ ${prefix}listcmd
+│❏ ${prefix}delcmd
+│❏ ${prefix}lockcmd
+│❏ ${prefix}addmsg
+│❏ ${prefix}listmsg
+│❏ ${prefix}getmsg
+│❏ ${prefix}delmsg
 │
 └───────⭓
 
 ┌──⭓ *ANONYMOUS MENU*
 │
-│⭔ ${prefix}anonymous
-│⭔ ${prefix}start
-│⭔ ${prefix}next
-│⭔ ${prefix}keluar
-│⭔ ${prefix}sendkontak
+│❏ ${prefix}anonymous
+│❏ ${prefix}start
+│❏ ${prefix}next
+│❏ ${prefix}keluar
+│❏ ${prefix}sendkontak
 │
 └───────⭓
 
 ┌──⭓ *ISLAMIC MENU*
 │
-│⭔ ${prefix}iqra
-│⭔ ${prefix}hadist
-│⭔ ${prefix}alquran
-│⭔ ${prefix}juzamma
-│⭔ ${prefix}tafsirsurah
+│❏ ${prefix}iqra
+│❏ ${prefix}hadist
+│❏ ${prefix}alquran
+│❏ ${prefix}juzamma
+│❏ ${prefix}tafsirsurah
 │
 └───────⭓
 
 ┌──⭓ *VOICE CHANGER*
 │
-│⭔ ${prefix}bass
-│⭔ ${prefix}blown
-│⭔ ${prefix}deep
-│⭔ ${prefix}earrape
-│⭔ ${prefix}fast
-│⭔ ${prefix}fat
-│⭔ ${prefix}nightcore
-│⭔ ${prefix}reverse
-│⭔ ${prefix}robot
-│⭔ ${prefix}slow
-│⭔ ${prefix}tupai
+│❏ ${prefix}bass
+│❏ ${prefix}blown
+│❏ ${prefix}deep
+│❏ ${prefix}earrape
+│❏ ${prefix}fast
+│❏ ${prefix}fat
+│❏ ${prefix}nightcore
+│❏ ${prefix}reverse
+│❏ ${prefix}robot
+│❏ ${prefix}slow
+│❏ ${prefix}tupai
 │
 └───────⭓
 
 ┌──⭓ *OWNER MENU*
 │
-│⭔ ${prefix}react [emoji]
-│⭔ ${prefix}chat [option]
-│⭔ ${prefix}join [link]
-│⭔ ${prefix}leave
-│⭔ ${prefix}block @user
-│⭔ ${prefix}unblock @user
-│⭔ ${prefix}bcgroup [text]
-│⭔ ${prefix}bcall [text]
-│⭔ ${prefix}setppbot [image]
-│⭔ ${prefix}setexif
+│❏ ${prefix}react [emoji]
+│❏ ${prefix}chat [option]
+│❏ ${prefix}join [link]
+│❏ ${prefix}leave
+│❏ ${prefix}block @user
+│❏ ${prefix}unblock @user
+│❏ ${prefix}bcgroup [text]
+│❏ ${prefix}bcall [text]
+│❏ ${prefix}setppbot [image]
+│❏ ${prefix}setexif
 │
 └───────⭓`
 let btn = [{
@@ -3309,26 +3313,26 @@ let btn = [{
 
 ┌──⭓ *GROUP MENU*
 │
-│⭔ ${prefix}linkgroup
-│⭔ ${prefix}ephemeral [option]
-│⭔ ${prefix}setppgc [image]
-│⭔ ${prefix}setname [text]
-│⭔ ${prefix}setdesc [text]
-│⭔ ${prefix}group [option]
-│⭔ ${prefix}editinfo [option]
-│⭔ ${prefix}add @user
-│⭔ ${prefix}kick @user
-│⭔ ${prefix}hidetag [text]
-│⭔ ${prefix}tagall [text]
-│⭔ ${prefix}antilink [on/off]
-│⭔ ${prefix}mute [on/off]
-│⭔ ${prefix}promote @user
-│⭔ ${prefix}demote @user
-│⭔ ${prefix}vote [text]
-│⭔ ${prefix}devote
-│⭔ ${prefix}upvote
-│⭔ ${prefix}cekvote
-│⭔ ${prefix}hapusvote
+│❏ ${prefix}linkgroup
+│❏ ${prefix}ephemeral [option]
+│❏ ${prefix}setppgc [image]
+│❏ ${prefix}setname [text]
+│❏ ${prefix}setdesc [text]
+│❏ ${prefix}group [option]
+│❏ ${prefix}editinfo [option]
+│❏ ${prefix}add @user
+│❏ ${prefix}kick @user
+│❏ ${prefix}hidetag [text]
+│❏ ${prefix}tagall [text]
+│❏ ${prefix}antilink [on/off]
+│❏ ${prefix}mute [on/off]
+│❏ ${prefix}promote @user
+│❏ ${prefix}demote @user
+│❏ ${prefix}vote [text]
+│❏ ${prefix}devote
+│❏ ${prefix}upvote
+│❏ ${prefix}cekvote
+│❏ ${prefix}hapusvote
 │
 └───────⭓`
                 let btn = [{
@@ -3371,21 +3375,21 @@ case 'downloadmenu': {
 
 ┌──⭓ *DOWNLOAD MENU*
 │
-│⭔ ${prefix}tiktoknowm [url]
-│⭔ ${prefix}tiktokwm [url]
-│⭔ ${prefix}tiktokmp3 [url]
-│⭔ ${prefix}instagram [url]
-│⭔ ${prefix}twitter [url]
-│⭔ ${prefix}twittermp3 [url]
-│⭔ ${prefix}facebook [url]
-│⭔ ${prefix}pinterestdl [url]
-│⭔ ${prefix}ytmp3 [url]
-│⭔ ${prefix}ytmp4 [url]
-│⭔ ${prefix}getmusic [query]
-│⭔ ${prefix}getvideo [query]
-│⭔ ${prefix}umma [url]
-│⭔ ${prefix}joox [query]
-│⭔ ${prefix}soundcloud [url]
+│❏ ${prefix}tiktoknowm [url]
+│❏ ${prefix}tiktokwm [url]
+│❏ ${prefix}tiktokmp3 [url]
+│❏ ${prefix}instagram [url]
+│❏ ${prefix}twitter [url]
+│❏ ${prefix}twittermp3 [url]
+│❏ ${prefix}facebook [url]
+│❏ ${prefix}pinterestdl [url]
+│❏ ${prefix}ytmp3 [url]
+│❏ ${prefix}ytmp4 [url]
+│❏ ${prefix}getmusic [query]
+│❏ ${prefix}getvideo [query]
+│❏ ${prefix}umma [url]
+│❏ ${prefix}joox [query]
+│❏ ${prefix}soundcloud [url]
 │
 └───────⭓`
          let btn = [{
@@ -3428,16 +3432,16 @@ case 'searchmenu': {
 
 ┌──⭓ *SEARCH MENU*
 │
-│⭔ ${prefix}play [query]
-│⭔ ${prefix}yts [query]
-│⭔ ${prefix}google [query]
-│⭔ ${prefix}gimage [query]
-│⭔ ${prefix}pinterest [query]
-│⭔ ${prefix}wallpaper [query]
-│⭔ ${prefix}wikimedia [query]
-│⭔ ${prefix}ytsearch [query]
-│⭔ ${prefix}ringtone [query]
-│⭔ ${prefix}stalk [option] [query]
+│❏ ${prefix}play [query]
+│❏ ${prefix}yts [query]
+│❏ ${prefix}google [query]
+│❏ ${prefix}gimage [query]
+│❏ ${prefix}pinterest [query]
+│❏ ${prefix}wallpaper [query]
+│❏ ${prefix}wikimedia [query]
+│❏ ${prefix}ytsearch [query]
+│❏ ${prefix}ringtone [query]
+│❏ ${prefix}stalk [option] [query]
 │
 └───────⭓`
        let btn = [{
@@ -3480,10 +3484,10 @@ case 'mememenu': {
 
 ┌──⭓ *MEME MENU*
 │
-│⭔ ${prefix}meme
-│⭔ ${prefix}memeindo
-│⭔ ${prefix}darkjokes
-│⭔ ${prefix}darkmeme
+│❏ ${prefix}meme
+│❏ ${prefix}memeindo
+│❏ ${prefix}darkjokes
+│❏ ${prefix}darkmeme
 │
 └───────⭓`
 let btn = [{
@@ -3526,23 +3530,23 @@ case 'randommenu': {
 
 ┌──⭓ *RANDOM MENU*
 │
-│⭔ ${prefix}coffe
-│⭔ ${prefix}quotesanime
-│⭔ ${prefix}motivasi
-│⭔ ${prefix}dilanquote
-│⭔ ${prefix}bucinquote
-│⭔ ${prefix}katasenja
-│⭔ ${prefix}puisi
-│⭔ ${prefix}couple
-│⭔ ${prefix}anime
-│⭔ ${prefix}waifu
-│⭔ ${prefix}husbu
-│⭔ ${prefix}neko
-│⭔ ${prefix}shinobu
-│⭔ ${prefix}waifus (nsfw)
-│⭔ ${prefix}nekos (nsfw)
-│⭔ ${prefix}trap (nsfw)
-│⭔ ${prefix}blowjob (nsfw)
+│❏ ${prefix}coffe
+│❏ ${prefix}quotesanime
+│❏ ${prefix}motivasi
+│❏ ${prefix}dilanquote
+│❏ ${prefix}bucinquote
+│❏ ${prefix}katasenja
+│❏ ${prefix}puisi
+│❏ ${prefix}couple
+│❏ ${prefix}anime
+│❏ ${prefix}waifu
+│❏ ${prefix}husbu
+│❏ ${prefix}neko
+│❏ ${prefix}shinobu
+│❏ ${prefix}waifus (nsfw)
+│❏ ${prefix}nekos (nsfw)
+│❏ ${prefix}trap (nsfw)
+│❏ ${prefix}blowjob (nsfw)
 │
 └───────⭓`
        let btn = [{
@@ -3586,37 +3590,37 @@ case 'textpromenu': {
 
 ┌──⭓ *TEXT PRO MENU*
 │
-│⭔ ${prefix}3dchristmas
-│⭔ ${prefix}3ddeepsea
-│⭔ ${prefix}americanflag
-│⭔ ${prefix}3dscifi
-│⭔ ${prefix}3drainbow
-│⭔ ${prefix}3dwaterpipe
-│⭔ ${prefix}halloweenskeleton
-│⭔ ${prefix}sketch
-│⭔ ${prefix}bluecircuit
-│⭔ ${prefix}space
-│⭔ ${prefix}metallic
-│⭔ ${prefix}fiction
-│⭔ ${prefix}greenhorror
-│⭔ ${prefix}transformer
-│⭔ ${prefix}berry
-│⭔ ${prefix}thunder
-│⭔ ${prefix}magma
-│⭔ ${prefix}3dcrackedstone
-│⭔ ${prefix}3dneonlight
-│⭔ ${prefix}impressiveglitch
-│⭔ ${prefix}naturalleaves
-│⭔ ${prefix}fireworksparkle
-│⭔ ${prefix}matrix
-│⭔ ${prefix}dropwater
-│⭔ ${prefix}harrypotter
-│⭔ ${prefix}foggywindow
-│⭔ ${prefix}neondevils
-│⭔ ${prefix}christmasholiday
-│⭔ ${prefix}3dgradient
-│⭔ ${prefix}blackpink
-│⭔ ${prefix}gluetext
+│❏ ${prefix}3dchristmas
+│❏ ${prefix}3ddeepsea
+│❏ ${prefix}americanflag
+│❏ ${prefix}3dscifi
+│❏ ${prefix}3drainbow
+│❏ ${prefix}3dwaterpipe
+│❏ ${prefix}halloweenskeleton
+│❏ ${prefix}sketch
+│❏ ${prefix}bluecircuit
+│❏ ${prefix}space
+│❏ ${prefix}metallic
+│❏ ${prefix}fiction
+│❏ ${prefix}greenhorror
+│❏ ${prefix}transformer
+│❏ ${prefix}berry
+│❏ ${prefix}thunder
+│❏ ${prefix}magma
+│❏ ${prefix}3dcrackedstone
+│❏ ${prefix}3dneonlight
+│❏ ${prefix}impressiveglitch
+│❏ ${prefix}naturalleaves
+│❏ ${prefix}fireworksparkle
+│❏ ${prefix}matrix
+│❏ ${prefix}dropwater
+│❏ ${prefix}harrypotter
+│❏ ${prefix}foggywindow
+│❏ ${prefix}neondevils
+│❏ ${prefix}christmasholiday
+│❏ ${prefix}3dgradient
+│❏ ${prefix}blackpink
+│❏ ${prefix}gluetext
 │
 └───────⭓`
 let btn = [{
@@ -3659,18 +3663,18 @@ case 'photooxymenu': {
 
 ┌──⭓ *PHOTO OXY MENU*
 │
-│⭔ ${prefix}shadow
-│⭔ ${prefix}romantic
-│⭔ ${prefix}smoke
-│⭔ ${prefix}burnpapper
-│⭔ ${prefix}naruto
-│⭔ ${prefix}lovemsg
-│⭔ ${prefix}grassmsg
-│⭔ ${prefix}lovetext
-│⭔ ${prefix}coffecup
-│⭔ ${prefix}butterfly
-│⭔ ${prefix}harrypotter
-│⭔ ${prefix}retrolol
+│❏ ${prefix}shadow
+│❏ ${prefix}romantic
+│❏ ${prefix}smoke
+│❏ ${prefix}burnpapper
+│❏ ${prefix}naruto
+│❏ ${prefix}lovemsg
+│❏ ${prefix}grassmsg
+│❏ ${prefix}lovetext
+│❏ ${prefix}coffecup
+│❏ ${prefix}butterfly
+│❏ ${prefix}harrypotter
+│❏ ${prefix}retrolol
 │
 └───────⭓`
 let btn = [{
@@ -3713,15 +3717,15 @@ case 'ephotomenu': {
 
 ┌──⭓ *EPHOTO MENU*
 │
-│⭔ ${prefix}ffcover
-│⭔ ${prefix}crossfire
-│⭔ ${prefix}galaxy
-│⭔ ${prefix}glass
-│⭔ ${prefix}neon
-│⭔ ${prefix}beach
-│⭔ ${prefix}blackpink
-│⭔ ${prefix}igcertificate
-│⭔ ${prefix}ytcertificate
+│❏ ${prefix}ffcover
+│❏ ${prefix}crossfire
+│❏ ${prefix}galaxy
+│❏ ${prefix}glass
+│❏ ${prefix}neon
+│❏ ${prefix}beach
+│❏ ${prefix}blackpink
+│❏ ${prefix}igcertificate
+│❏ ${prefix}ytcertificate
 │
 └───────⭓`
 let btn = [{
@@ -3764,31 +3768,31 @@ case 'funmenu': {
 
 ┌──⭓ *FUN MENU*
 │
-│⭔ ${prefix}apakah
-│⭔ ${prefix}bisakah
-│⭔ ${prefix}bagaimanakah
-│⭔ ${prefix}rate
-│⭔ ${prefix}kapankah
-│⭔ ${prefix}cekganteng
-│⭔ ${prefix}cekcantik
-│⭔ ${prefix}ceksange
-│⭔ ${prefix}cekgay
-│⭔ ${prefix}ceklesbi
-│⭔ ${prefix}cekmati
-│⭔ ${prefix}wangy
-│⭔ ${prefix}halah
-│⭔ ${prefix}hilih
-│⭔ ${prefix}huluh
-│⭔ ${prefix}heleh
-│⭔ ${prefix}holoh
-│⭔ ${prefix}jadian
-│⭔ ${prefix}jodohku
-│⭔ ${prefix}delttt
-│⭔ ${prefix}tictactoe
-│⭔ ${prefix}family100
-│⭔ ${prefix}tebak [option]
-│⭔ ${prefix}math [mode]
-│⭔ ${prefix}suitpvp [@tag]
+│❏ ${prefix}apakah
+│❏ ${prefix}bisakah
+│❏ ${prefix}bagaimanakah
+│❏ ${prefix}rate
+│❏ ${prefix}kapankah
+│❏ ${prefix}cekganteng
+│❏ ${prefix}cekcantik
+│❏ ${prefix}ceksange
+│❏ ${prefix}cekgay
+│❏ ${prefix}ceklesbi
+│❏ ${prefix}cekmati
+│❏ ${prefix}wangy
+│❏ ${prefix}halah
+│❏ ${prefix}hilih
+│❏ ${prefix}huluh
+│❏ ${prefix}heleh
+│❏ ${prefix}holoh
+│❏ ${prefix}jadian
+│❏ ${prefix}jodohku
+│❏ ${prefix}delttt
+│❏ ${prefix}tictactoe
+│❏ ${prefix}family100
+│❏ ${prefix}tebak [option]
+│❏ ${prefix}math [mode]
+│❏ ${prefix}suitpvp [@tag]
 │
 └───────⭓`
 let btn = [{
@@ -3831,36 +3835,36 @@ case 'primbonmenu': {
 
 ┌──⭓ *PRIMBON MENU*
 │
-│⭔ ${prefix}nomorhoki
-│⭔ ${prefix}artimimpi
-│⭔ ${prefix}artinama
-│⭔ ${prefix}ramaljodoh
-│⭔ ${prefix}ramaljodohbali
-│⭔ ${prefix}suamiistri
-│⭔ ${prefix}ramalcinta
-│⭔ ${prefix}cocoknama
-│⭔ ${prefix}pasangan
-│⭔ ${prefix}jadiannikah
-│⭔ ${prefix}sifatusaha
-│⭔ ${prefix}rezeki
-│⭔ ${prefix}pekerjaan
-│⭔ ${prefix}nasib
-│⭔ ${prefix}penyakit
-│⭔ ${prefix}tarot
-│⭔ ${prefix}fengshui
-│⭔ ${prefix}haribaik
-│⭔ ${prefix}harisangar
-│⭔ ${prefix}harisial
-│⭔ ${prefix}nagahari
-│⭔ ${prefix}arahrezeki
-│⭔ ${prefix}peruntungan
-│⭔ ${prefix}weton
-│⭔ ${prefix}karakter
-│⭔ ${prefix}keberuntungan
-│⭔ ${prefix}memancing
-│⭔ ${prefix}masasubur
-│⭔ ${prefix}zodiak
-│⭔ ${prefix}shio
+│❏ ${prefix}nomorhoki
+│❏ ${prefix}artimimpi
+│❏ ${prefix}artinama
+│❏ ${prefix}ramaljodoh
+│❏ ${prefix}ramaljodohbali
+│❏ ${prefix}suamiistri
+│❏ ${prefix}ramalcinta
+│❏ ${prefix}cocoknama
+│❏ ${prefix}pasangan
+│❏ ${prefix}jadiannikah
+│❏ ${prefix}sifatusaha
+│❏ ${prefix}rezeki
+│❏ ${prefix}pekerjaan
+│❏ ${prefix}nasib
+│❏ ${prefix}penyakit
+│❏ ${prefix}tarot
+│❏ ${prefix}fengshui
+│❏ ${prefix}haribaik
+│❏ ${prefix}harisangar
+│❏ ${prefix}harisial
+│❏ ${prefix}nagahari
+│❏ ${prefix}arahrezeki
+│❏ ${prefix}peruntungan
+│❏ ${prefix}weton
+│❏ ${prefix}karakter
+│❏ ${prefix}keberuntungan
+│❏ ${prefix}memancing
+│❏ ${prefix}masasubur
+│❏ ${prefix}zodiak
+│❏ ${prefix}shio
 │
 └───────⭓`
 let btn = [{
@@ -3903,22 +3907,22 @@ case 'convertmenu': {
 
 ┌──⭓ *CONVERT MENU*
 │
-│⭔ ${prefix}attp
-│⭔ ${prefix}toimage
-│⭔ ${prefix}removebg
-│⭔ ${prefix}stext
-│⭔ ${prefix}sticker
-│⭔ ${prefix}emojimix
-│⭔ ${prefix}emojimix2
-│⭔ ${prefix}tovideo
-│⭔ ${prefix}togif
-│⭔ ${prefix}tourl
-│⭔ ${prefix}tovn
-│⭔ ${prefix}tomp3
-│⭔ ${prefix}toaudio
-│⭔ ${prefix}ebinary
-│⭔ ${prefix}dbinary
-│⭔ ${prefix}styletext
+│❏ ${prefix}attp
+│❏ ${prefix}toimage
+│❏ ${prefix}removebg
+│❏ ${prefix}stext
+│❏ ${prefix}sticker
+│❏ ${prefix}emojimix
+│❏ ${prefix}emojimix2
+│❏ ${prefix}tovideo
+│❏ ${prefix}togif
+│❏ ${prefix}tourl
+│❏ ${prefix}tovn
+│❏ ${prefix}tomp3
+│❏ ${prefix}toaudio
+│❏ ${prefix}ebinary
+│❏ ${prefix}dbinary
+│❏ ${prefix}styletext
 │
 └───────⭓`
 let btn = [{
@@ -3961,17 +3965,17 @@ case 'mainmenu': {
 
 ┌──⭓ *MAIN MENU*
 │
-│⭔ ${prefix}ping
-│⭔ ${prefix}owner
-│⭔ ${prefix}runtime
-│⭔ ${prefix}menu / ${prefix}help / ${prefix}?
-│⭔ ${prefix}delete
-│⭔ ${prefix}infochat
-│⭔ ${prefix}quoted
-│⭔ ${prefix}listpc
-│⭔ ${prefix}listgc
-│⭔ ${prefix}listonline
-│⭔ ${prefix}speedtest
+│❏ ${prefix}ping
+│❏ ${prefix}owner
+│❏ ${prefix}runtime
+│❏ ${prefix}menu / ${prefix}help / ${prefix}?
+│❏ ${prefix}delete
+│❏ ${prefix}infochat
+│❏ ${prefix}quoted
+│❏ ${prefix}listpc
+│❏ ${prefix}listgc
+│❏ ${prefix}listonline
+│❏ ${prefix}speedtest
 │
 └───────⭓`
 let btn = [{
@@ -4014,14 +4018,14 @@ case 'databasemenu': {
 
 ┌──⭓ *DATABASE MENU*
 │
-│⭔ ${prefix}setcmd
-│⭔ ${prefix}listcmd
-│⭔ ${prefix}delcmd
-│⭔ ${prefix}lockcmd
-│⭔ ${prefix}addmsg
-│⭔ ${prefix}listmsg
-│⭔ ${prefix}getmsg
-│⭔ ${prefix}delmsg
+│❏ ${prefix}setcmd
+│❏ ${prefix}listcmd
+│❏ ${prefix}delcmd
+│❏ ${prefix}lockcmd
+│❏ ${prefix}addmsg
+│❏ ${prefix}listmsg
+│❏ ${prefix}getmsg
+│❏ ${prefix}delmsg
 │
 └───────⭓`
 let btn = [{
@@ -4064,11 +4068,11 @@ case 'anonymousmenu': {
 
 ┌──⭓ *ANONYMOUS MENU*
 │
-│⭔ ${prefix}anonymous
-│⭔ ${prefix}start
-│⭔ ${prefix}next
-│⭔ ${prefix}keluar
-│⭔ ${prefix}sendkontak
+│❏ ${prefix}anonymous
+│❏ ${prefix}start
+│❏ ${prefix}next
+│❏ ${prefix}keluar
+│❏ ${prefix}sendkontak
 │
 └───────⭓`
 let btn = [{
@@ -4111,11 +4115,11 @@ case 'islamicmenu': {
 
 ┌──⭓ *ISLAMIC MENU*
 │
-│⭔ ${prefix}iqra
-│⭔ ${prefix}hadist
-│⭔ ${prefix}alquran
-│⭔ ${prefix}juzamma
-│⭔ ${prefix}tafsirsurah
+│❏ ${prefix}iqra
+│❏ ${prefix}hadist
+│❏ ${prefix}alquran
+│❏ ${prefix}juzamma
+│❏ ${prefix}tafsirsurah
 │
 └───────⭓`
 let btn = [{
@@ -4158,17 +4162,17 @@ case 'voicechangermenu': {
 
 ┌──⭓ *VOICE CHANGER*
 │
-│⭔ ${prefix}bass
-│⭔ ${prefix}blown
-│⭔ ${prefix}deep
-│⭔ ${prefix}earrape
-│⭔ ${prefix}fast
-│⭔ ${prefix}fat
-│⭔ ${prefix}nightcore
-│⭔ ${prefix}reverse
-│⭔ ${prefix}robot
-│⭔ ${prefix}slow
-│⭔ ${prefix}tupai
+│❏ ${prefix}bass
+│❏ ${prefix}blown
+│❏ ${prefix}deep
+│❏ ${prefix}earrape
+│❏ ${prefix}fast
+│❏ ${prefix}fat
+│❏ ${prefix}nightcore
+│❏ ${prefix}reverse
+│❏ ${prefix}robot
+│❏ ${prefix}slow
+│❏ ${prefix}tupai
 │
 └───────⭓`
 let btn = [{
@@ -4211,16 +4215,16 @@ case 'ownermenu': {
 
 ┌──⭓ *OWNER MENU*
 │
-│⭔ ${prefix}react [emoji]
-│⭔ ${prefix}chat [option]
-│⭔ ${prefix}join [link]
-│⭔ ${prefix}leave
-│⭔ ${prefix}block @user
-│⭔ ${prefix}unblock @user
-│⭔ ${prefix}bcgroup [text]
-│⭔ ${prefix}bcall [text]
-│⭔ ${prefix}setppbot [image]
-│⭔ ${prefix}setexif
+│❏ ${prefix}react [emoji]
+│❏ ${prefix}chat [option]
+│❏ ${prefix}join [link]
+│❏ ${prefix}leave
+│❏ ${prefix}block @user
+│❏ ${prefix}unblock @user
+│❏ ${prefix}bcgroup [text]
+│❏ ${prefix}bcall [text]
+│❏ ${prefix}setppbot [image]
+│❏ ${prefix}setexif
 │
 └───────⭓`
 let btn = [{
@@ -4253,14 +4257,14 @@ case 'thanksto': {
 
 ┌──⭓ *THANKS TO*
 │
-│⭔ OvaBotz
-│⭔ OvaBotz
-│⭔ OvaBotz
-│⭔ OvaBotz
-│⭔ OvaBotz
-│⭔ OvaBotz
-│⭔ OvaBotz
-│⭔ OvaBotz
+│❏ OvaBotz
+│❏ OvaBotz
+│❏ OvaBotz
+│❏ OvaBotz
+│❏ OvaBotz
+│❏ OvaBotz
+│❏ OvaBotz
+│❏ OvaBotz
 │
 └───────⭓`
 let btn = [{
